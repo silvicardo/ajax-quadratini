@@ -1,0 +1,65 @@
+/**********************************************/
+/**********************************************/
+/**** PROGETTO: ajax-quadratini - style.css ***/
+/**********************************************/
+/**********************************************/
+
+
+/**********************************************/
+/************* REGOLE GENERALI ****************/
+/**********************************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/************************************************/
+/************* OGGETTI RICORRENTI ***************/
+/************************************************/
+
+.quadratino {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  height: 60px;
+  width: 60px;
+  border: 1px solid black;
+  color: black;
+  background: white;
+  cursor: pointer;
+}
+
+.quadratino.template {
+  display: none;
+}
+
+.quadratino.yellow {
+  background: yellow;
+}
+
+.quadratino.green {
+  background: green;
+}
+
+/**********************************************/
+/************* SEZIONI DOCMUMENTO *************/
+/**********************************************/
+
+#main-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: grey;
+}
+
+.quadratini {
+  height: 360px;
+  width: 360px;
+}
