@@ -8,7 +8,6 @@ $(document).ready(function () {
   for (var i = 0; i < 36; i++) {
     var clone = $('.quadratino.template').clone();
     clone.removeClass('template');
-    var cloneHtml = clone.html();
     $('.quadratini').append(clone);
   }
 
